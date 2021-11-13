@@ -1,0 +1,88 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+   int i,j,k,m,i2,j2,k2,m2,a,b,d,x,a2,b2,d2,x2,t,r,e,s;
+   clrscr();
+   for(i=1;i<=5;i++)
+   {
+     for(j=5-i;j>0;j--)
+     {
+       printf(" ");
+     }
+     for(m=1;m<=i;m++)
+     {
+       printf("%d",m);
+     }
+     for(k=i-1;k>0;k--)
+     {
+       printf("%d",k);
+     }
+     printf("\n");
+   }
+   for(i2=5;i2>=1;i2--)
+   {
+     for(j2=5-i2;j2>0;j2--)
+     {
+       printf(" ");
+     }
+     for(m2=1;m2<=i2;m2++)
+     {
+       printf("%d",m2);
+     }
+     for(k2=i2-1;k2>0;k2--)
+     {
+       printf("%d",k2);
+     }
+     printf("\n");
+   }
+   for(a=1;a<=5;a++)
+   {
+     for(b=5-a;b>0;b--)
+     {
+       printf(" ");
+     }
+     for(d=1;d<=a;d++)
+     {
+       printf("%d",d);
+     }
+     for(x=a-1;x>0;x--)
+     {
+       printf("%d",x);
+     }
+     printf("\n");
+   }
+   for(a2=5;a2>=1;a2--)
+   {
+     for(b2=5-a2;b2>0;b2--)
+     {
+       printf(" ");
+     }
+     for(d2=1;d2<=a2;d2++)
+     {
+       printf("%d",d2);
+     }
+     for(x2=a2-1;x2>0;x2--)
+     {
+       printf("%d",x2);
+     }
+     printf("\n");
+   }
+   for(t=1;t<=4;t++)
+   {
+     for(r=5-t;r>0;r--)
+     {
+       printf(" ");
+     }
+     for(e=1;e<=t;e++)
+     {
+       printf("%d",e);
+     }
+     for(s=t-1;s>0;s--)
+     {
+       printf("%d",s);
+     }
+     printf("\n");
+   }
+   getch();
+ }
