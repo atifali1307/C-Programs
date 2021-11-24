@@ -4,15 +4,15 @@ void main()
 {
   int i,j,k;
   clrscr();
-  for(i=1;i<=5;i++)
+  for(i=5;i>=1;i--)
   {
-    for(k=5;k>=i;k--)
+    for(j=5-i;j>0;j--)
     {
       printf(" ");
     }
-    for(j=1;j<=i;j++)
+    for(k=1;k<=i;k++)
     {
-      printf("* ");
+      printf("*");
     }
     printf("\n");
   }
